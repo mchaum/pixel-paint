@@ -9,14 +9,14 @@ import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PixelGridComponent,
     ToolbarComponent,
-    HomeComponent
+    HomeComponent,
+    AppComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

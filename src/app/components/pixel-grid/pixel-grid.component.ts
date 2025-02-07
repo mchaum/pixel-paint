@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { AppRoutingModule } from '../../app-routing.module';
 
 @Component({
   selector: 'app-pixel-grid',
