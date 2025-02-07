@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "predeploy": "npm install --legacy-peer-deps",
+    "predeploy": "npm install --force",
     "deploy": "ng build --prod"
   },
   "private": true,
