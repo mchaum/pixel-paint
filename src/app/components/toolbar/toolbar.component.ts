@@ -11,8 +11,9 @@ import { faDownload, faEraser, faPenNib, faTrash } from '@fortawesome/free-solid
     FontAwesomeModule
   ],
   templateUrl: './toolbar.component.html',
-  styleUrl: './toolbar.component.scss'
+  styleUrls: ['./toolbar.component.scss']
 })
+
 export class ToolbarComponent {
   @Output() colorChange = new EventEmitter<string>();
   @Output() toggleEraser = new EventEmitter<void>();
