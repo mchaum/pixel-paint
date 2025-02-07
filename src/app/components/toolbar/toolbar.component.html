@@ -1,0 +1,10 @@
+<div class="toolbar">
+    <input type="color" [value]="selectedColor" (change)="onColorChange($event)">
+    <button (click)="onToggleEraser()">
+      <span *ngIf="isEraserActive"><fa-icon [icon]="faPen"></fa-icon></span>
+      <span *ngIf="!isEraserActive"><fa-icon [icon]="faEraser"></fa-icon> </span>
+    </button>
+    <button (click)="onClearCanvas()"><fa-icon [icon]="faTrash"></fa-icon>  Clear All</button>
+    <button (click)="onExportImage()"><fa-icon [icon]="faDownload"></fa-icon> Save image</button>
+  </div>
+  

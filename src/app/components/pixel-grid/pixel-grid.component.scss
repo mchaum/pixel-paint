@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(32, 10px);
+    gap: 0;
+    background: #ddd;
+}
+
+.pixel {
+    width: 10px;
+    height: 10px;
+    border: 0.5px solid #ccc;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(32, 17px); /* Augmente la taille des colonnes */
+    }
+
+    .pixel {
+        width: 17px;   /* Augmente la taille des pixels */
+        height: 17px;  /* Augmente la taille des pixels */
+    }
+}

@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Pixel Paint</h1>
+    <app-toolbar 
+      (colorChange)="selectedColor = $event" 
+      (toggleEraser)="toggleEraser()" 
+      (clearCanvas)="clearCanvas()" 
+      (exportImage)="exportToImage()">
+    </app-toolbar>
+  
+    <app-pixel-grid 
+    [selectedColor]="selectedColor" 
+    [isErasing]="isErasing" 
+    [gridSize]="gridSize">
+    </app-pixel-grid>
+</div>

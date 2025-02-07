@@ -1,0 +1,24 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+input {
+    height: 36px;
+}

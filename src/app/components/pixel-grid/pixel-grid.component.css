@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  gap: 1px;
+  background-color: #ccc;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.row {
+  display: flex;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}/*# sourceMappingURL=pixel-grid.component.css.map */
